@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: #f6f6d5; 
+    color: #8b4513; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ol {
+    text-align: left;
+    color: #8b4513;
+    font-weight: bold;
+}
+ul {
+    font-weight: lighter;
+}
+header {
+    padding: 20px;
+    background-color: #deb887; 
+}
+
+h2, h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Centering the image, video, and audio */
+section {
+    margin-bottom: 40px;
+}
+
+/* Styling for the image */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px; /* Slightly rounded edges for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow effect */
+}
+
+/* Styling for the iframe (video) */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Styling for the audio */
+audio {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #8b4513; /* Brown border */
+    text-align: center;
+}
+
+th {
+    background-color: #deb887; /* Lighter brown */
+    color:black;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff8dc; /* Light beige for the table cells */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b1b04;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a0522d; /* Darker shade on hover */
+}
+
+/* Add margin for section spacing */
+section {
+    margin: 20px 0;
+}
